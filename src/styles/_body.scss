@@ -1,0 +1,54 @@
+.body-container {
+    margin-top: 8rem;
+    font-family: 'Ubuntu', sans-serif;
+
+    @media (max-width: 920px) {
+        margin-top: 18rem;
+    }
+}
+
+.btn-video {
+    position: relative;
+    border: 1px solid;
+    padding: 15px 70px;
+    background: none;
+    border-radius:3px;
+    text-align: center;
+    transition: all 0.2s;
+    font-size:15px;
+    &:hover {
+        color: #fff;
+        background: #161616;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+    span {
+        img {
+            position: absolute;
+            width: 30px;
+            left: 20px;
+            bottom:8px;
+            transition: all 0.2s;
+        }
+    }
+}
+
+.btn-video:hover .img {
+    filter: invert(100%);
+}
+
+.feature {
+    position: absolute;
+    opacity: 0.1;
+    left: 150px;
+    width: 300px;
+
+    @media (max-width: 920px) {
+        opacity: 0;
+    }
+}
+
+
+.title {
+    opacity: 0.7;
+}
