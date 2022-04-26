@@ -130,6 +130,13 @@ function Skills() {
                     <p className="learn-more">Learn more</p>
                 </div>
             </div>
+            <div>
+                <div>
+                    <h1>I'm a Computer Hardware buff!</h1>
+                    <p>I'v build a lot of computer desktop. By now I'm working for Naruto Center in Iraq
+                        as a computer Buff!</p>
+                </div>
+            </div>
         </div>
     )
 }
